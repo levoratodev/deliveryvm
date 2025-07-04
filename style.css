@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff7f7;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  color: #b32424;
+}
+
+#cardapio .item {
+  border: 1px solid #b32424;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #b32424;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #8a1c1c;
+}
+
+input, select, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 6px;
+  border: 1px solid #b32424;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#lista-pedido, #lista-pedidos-func {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#lista-pedido li, .pedido-func {
+  background: #ffe5e5;
+  border: 1px solid #b32424;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 5px;
+}
